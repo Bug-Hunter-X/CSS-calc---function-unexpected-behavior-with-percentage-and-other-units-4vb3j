@@ -1,0 +1,6 @@
+The solution involves adding spaces between the percentage value and the other unit in the `calc()` function.  The correct code would be:
+
+```css
+width: calc(50% - 10px);
+```
+By adding spaces between `50%` and `-10px`, the browser can properly interpret the calculation, ensuring that the width is correctly calculated as 50% of the container's width minus 10 pixels.  Without the spaces, the browser may encounter parsing errors or unexpected calculations.
